@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+#generador {
+    background-color: #111;
+    display: grid;
+    place-items: center;
+    min-width: 30%;
+    min-height: 20%;
+    border: solid 3px #3effff;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px #111;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#color {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#boton {
+    border: none;
+    background-color: #3effff;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: background-color 0.7s ease;
+}
+
+#boton:hover {
+    background-color: #111;
+    border: solid 1px #3effff;
+    color: #3effff;    
+}
